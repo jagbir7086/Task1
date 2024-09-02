@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: gilroy;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #050506
+    
+}
+.nav_left{
+    height: 100%;
+    width: 50%;
+    padding-top: 30px;
+    padding-left: 80px;
+}
+.nav_left img{
+    height: 40px;
+    width: 40px;
+    filter: brightness(0) invert(1);
+    color: purple;
+    
+}
+.nav_right{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 170px;
+}
+.nav_right img{
+    height: 40px;
+    width: 40px;
+    filter: brightness(0) invert(1);
+    
+   
+    
+}
+.nav_right img:hover{
+    cursor: pointer;
+}
+.page1{
+    width: 100%;
+    height: calc(100% - 100px);
+    display: flex;
+    justify-content: space-between;
+    padding: 45px;
+    background-color: rgb(5, 5, 6);
+}
+.page1 .part1{
+    width: 50%;
+    height: 100%;
+   
+}
+.page1 .part1 h1{
+    font-size: 100px;
+    font-weight: bold;
+    color: rgb(249, 245, 245);
+    padding: 45px;
+    
+}
+.page1 .part1 h1 span{
+    font-size: 70;
+    font-weight: bold;
+    color: rgb(134, 134, 133);
+    padding: 0;
+}
+.page1 .part1 img{
+    width: 40px;
+    height: 40px;
+    filter: brightness(0) invert(1);
+    color: purple;
+   
+
+}
+.page1 .part1 .a{
+    align-items: center;
+    display: flex;
+    padding: 45px;
+}
+.page1 .part1 .a h3{
+    font-size: 20;
+    color: white;
+    
+    margin-bottom: 30px;
+}
+.part1 .a p{
+    font-size: 20px;
+    color: rgb(235, 235, 180);
+    text-align: center;
+    justify-content: center;
+
+}
+.page1 .part2{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.page1 .part2 img{
+    height: 900px;
+    width: 500px;
+}
